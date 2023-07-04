@@ -169,8 +169,8 @@
 }
 
 
-[data-theme="light"]{
-  color-scheme: light;
+[data-theme="dark"]{
+  color-scheme: dark;
 
 --background: var(--dark-background);
 --on-background: var(--dark-on-background);

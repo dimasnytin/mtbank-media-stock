@@ -336,9 +336,45 @@ button:disabled{
 /*  */
 .label-large{
   font-size: var(--fs-label-large);
-  font-weight: var(--weight-regular);
+  font-weight: var(--weight-medium);
   line-height: 20px;
   letter-spacing: 0.1px;
+}
+
+.label-medium{
+  font-size: var(--fs-label-medium);
+  font-weight: var(--weight-medium);
+  line-height: 16px;
+  letter-spacing: 0.5px;
+}
+
+.label-small{
+  font-size: var(--fs-label-small);
+  font-weight: var(--weight-medium);
+  line-height: 16px;
+  letter-spacing: 0.5px;
+}
+
+/*  */
+.body-large{
+  font-size: var(--fs-body-large);
+  font-weight: var(--weight-regular);
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.body-medium{
+  font-size: var(--fs-body-medium);
+  font-weight: var(--weight-regular);
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.body-small{
+  font-size: var(--fs-body-small);
+  font-weight: var(--weight-regular);
+  line-height: 16px;
+  letter-spacing: 0.4px;
 }
 
 

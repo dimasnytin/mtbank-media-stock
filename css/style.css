@@ -395,10 +395,18 @@ button:disabled{
   z-index: 1;
 }
 
+.ripple,
 .state-layer{
   position: absolute;
   pointer-events: none;
   z-index: 1;
+}
+
+.state-layer{
+  border-radius: inherit;
+  inset: 0;
+  opacity: 0;
+  transition: var(--motion-duration-short-2) var(--motion-easing-linear);
 }
 
 

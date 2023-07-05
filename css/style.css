@@ -446,9 +446,9 @@ button:disabled{
 
 
 /* top app bar */
-.search-view{
+/* .search-view{
   display: none;
-}
+} */
 
 .top-app-bar{
   background-color: var(--surface);
@@ -476,6 +476,9 @@ button:disabled{
   display: none;
 }
 
+/* .search-view-content .divider{
+  margin-inline: 16px;
+} */
 
 
 /*-----------------------------------*\

@@ -42,7 +42,9 @@
 
     <!-- search -->
     <div class="search-view" data-search-view>
+
       <div class="search-bar">
+
         <button class="icon-btn search-open" aria-label="Close search" data-search-toggler data-ripple>
           <span class="material-symbols-outlined" aria-hidden="true">arrow_back</span>
 
@@ -68,10 +70,37 @@
           <div class="state-layer"></div>
         </button>
 
+        <div class="state-layer"></div>
+
+      </div>
+
+      <div class="search-view-content">
+
+        <div class="btn-group" data-segment="search">
+
+            <!-- фотки -->
+          <button class="btn-segment selected" data-ripple data-segment-btn data-segment-value="photos">
+            <span class="material-symbols-outlined" aria-hidden="true">image</span>
+
+            <span class="label-large text">Фото</span>
+
+            <div class="state-layer"></div>
+          </button>
+
+          <!--  -->
+          <button class="btn-segment selected" data-ripple data-segment-btn data-segment-value="video">
+            <span class="material-symbols-outlined" aria-hidden="true">videocam</span>
+
+            <span class="label-large text">Фото</span>
+
+            <div class="state-layer"></div>
+          </button>
+
+        </div>
+
       </div>
     </div>
 
-    <!--  -->
 
   </header>
 

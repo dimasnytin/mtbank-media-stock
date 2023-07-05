@@ -463,6 +463,19 @@ button:disabled{
   transition: background-color var(--motion-duration-short-2) var(--motion-easing-linear);
 }
 
+.top-app-bar.active{
+  background-color: var(--surface-container);
+}
+
+.top-app-bar .logo{
+  margin-inline: 4px auto;
+}
+
+[data-theme="dark"] .theme-btn .dark-icon,
+[data-theme="light"] .theme-btn .light-icon{
+  display: none;
+}
+
 
 
 /*-----------------------------------*\

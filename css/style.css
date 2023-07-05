@@ -458,7 +458,7 @@ button:disabled{
   height: var(--top-app-bar-height);
   position: fixed;
   top: 0;
-  widows: 100%;
+  width: 100%;
   z-index: 4;
   transition: background-color var(--motion-duration-short-2) var(--motion-easing-linear);
 }

@@ -389,6 +389,18 @@ button:disabled{
   'opsz' 24;
 }
 
+:has(> .state-layer){
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.state-layer{
+  position: absolute;
+  pointer-events: none;
+  z-index: 1;
+}
+
 
 
 

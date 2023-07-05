@@ -445,9 +445,10 @@ button:disabled{
 
 
 
-/*-----------------------------------*\
-  #TOP APP BAR
-\*-----------------------------------*/
+/* top app bar */
+.search-view{
+  display: none;
+}
 
 
 

@@ -497,6 +497,11 @@ button:disabled{
   transition-property: opacity, visibility; 
 }
 
+.search-view.show{
+  opacity: 1;
+  visibility: visible;
+}
+
 
 /**
  * List

@@ -427,6 +427,14 @@ button:disabled{
   animation: ripple 800ms var(--motion-easing-standard) forwards;
 }
 
+.logo{
+  color: var(--primary);
+  font-size: 2.6rem;
+  font-weight: var(--weight-medium);
+  line-height: 28px;
+  letter-spacing: -0.5px;
+}
+
 
 /* компоненты */
 

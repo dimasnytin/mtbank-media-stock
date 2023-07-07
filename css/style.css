@@ -502,6 +502,48 @@ button:disabled{
   visibility: visible;
 }
 
+.input-wrapper .leading-icon{
+  display: none;
+}
+
+.search-bar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 4px;
+  height: 72px;
+  border-block-end: 1px solid var(--outline);
+}
+
+.search-bar .icon-btn{
+  flex-shrink: 0;
+}
+
+.input-field{
+  color: var(--on-surface);
+}
+
+.input-wrapper{
+  flex-grow: 1;
+}
+
+.input-wrapper,
+.input-field{
+  height: 100%;
+}
+
+.input-field::placeholder{
+  color: var(--on-surface-variant);
+}
+
+.input-field::-webkit-search-cancel-button{
+  display: none;
+}
+
+
+
+
+
 
 /**
  * List

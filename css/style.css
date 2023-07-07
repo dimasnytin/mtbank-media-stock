@@ -435,6 +435,12 @@ button:disabled{
   letter-spacing: -0.5px;
 }
 
+.divider{
+  height: 1px;
+  max-width: 100%;
+  background-color: var(--outline-variant);
+}
+
 
 /* компоненты */
 
@@ -476,9 +482,20 @@ button:disabled{
  */
 
 
-/**
- * Search view
- */
+/* search style */
+.search-view{
+  background-color: var(--surface-container-high);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100dvh;
+  z-index: 5;
+  opacity: 0;
+  visibility: hidden;
+  transition: var(--motion-duration-short-2) var(--motion-easing-standard);
+  transition-property: opacity, visibility; 
+}
 
 
 /**

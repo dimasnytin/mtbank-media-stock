@@ -540,7 +540,13 @@ button:disabled{
   display: none;
 }
 
+.input-wrapper:has( :placeholder-shown) + .icon-btn{
+  display: none;
+}
 
+.search-bar .search-btn{
+  --state-layer-bg: var(--primary);
+}
 
 
 

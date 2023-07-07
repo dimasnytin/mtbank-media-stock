@@ -417,6 +417,16 @@ button:disabled{
   opacity: 0.12;
 }
 
+.ripple{
+  top: 50%;
+  left: 50%;
+  translate: -50% -50%;
+  transform-origin: center;
+  border-radius: var(--radius-circle);
+  opacity: 0.12;
+  animation: ripple 800ms var(--motion-easing-standard) forwards;
+}
+
 
 /* компоненты */
 
@@ -440,6 +450,11 @@ button:disabled{
   width: 40px;
   height: 40px;
   animation: icon-button-ripple 200ms var(--motion-easing-standard) forwards;
+}
+
+@keyframes icon-button-ripple{
+  0%{scale: 0;}
+  100%{scale: 1;}
 }
 
 

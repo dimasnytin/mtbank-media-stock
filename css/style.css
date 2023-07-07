@@ -409,16 +409,38 @@ button:disabled{
   transition: var(--motion-duration-short-2) var(--motion-easing-linear);
 }
 
-/* https://youtu.be/3B_o90v6WqA?t=2763 */
+:has(> .state-layer):hover > .state-layer {
+  opacity: 0.08;
+}
+
+:has(> .state-layer):is(:focus, :focus-visible, :active) > .state-layer {
+  opacity: 0.12;
+}
 
 
-/*-----------------------------------*\
-  #COMPONENT
-\*-----------------------------------*/
+/* компоненты */
 
-/**
- * Icon button
- */
+/* icon button */
+.icon-btn{
+  color: var(--on-surface-variant);
+  min-width: 48px;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border-radius: var(--radius-circle);
+  overflow: hidden;
+}
+
+.icon-btn > .state-layer{
+  inset: 4px;
+}
+
+.icon-btn > .ripple{
+  width: 40px;
+  height: 40px;
+  animation: icon-button-ripple 200ms var(--motion-easing-standard) forwards;
+}
 
 
 /**

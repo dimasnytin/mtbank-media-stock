@@ -428,7 +428,7 @@ button:disabled{
 }
 
 .logo{
-  color: var(--primary);
+  color: #1B74FD;
   font-size: 2.6rem;
   font-weight: var(--weight-medium);
   line-height: 28px;

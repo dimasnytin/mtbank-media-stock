@@ -13,7 +13,10 @@ if(sessionStorage.getItem("theme")){
 
 // выбираем тему сайта
 const changeTheme = function (){
-    console.log('click');
+    // console.log('click');
+    isDark = sessionStorage.getItem("theme");
+    sessionStorage.setItem("theme", isDark === "light" ? "dark" : "light");
+    $HTML.dataset.theme = sessionStorage.getItem("theme");
 }
 
 window.addEventListener("load", () => {

@@ -496,6 +496,15 @@ button:disabled{
   overflow: hidden;
 }
 
+.btn-segment .material-symbols-outlined{
+  font-size: 1.8rem;
+}
+
+.btn-segment.selected{
+  background-color: var(--secondary-container);
+  columns: var(--on-secondary-container);
+  --state-layer-bg: var(--on-secondary-container);
+}
 
 
 /**
@@ -576,9 +585,20 @@ button:disabled{
 
 
 
-/**
- * List
- */
+/* list */
+.list{
+  padding-block: 8px;
+}
+
+.list-item{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding-inline: 16px 24px;
+  height: 48px;
+  width: 100%;
+  --state-layer-bg: var(--on-surface);
+}
 
 
 /**

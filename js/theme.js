@@ -23,3 +23,5 @@ window.addEventListener("load", () => {
     const $themeBtn = document.querySelector("[data-theme-toggler]");
     $themeBtn.addEventListener("click", changeTheme);
 });
+
+// https://youtu.be/3B_o90v6WqA?t=4013

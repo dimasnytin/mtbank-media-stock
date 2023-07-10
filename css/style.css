@@ -600,6 +600,14 @@ button:disabled{
   --state-layer-bg: var(--on-surface);
 }
 
+.list-item .text{
+  color: var(--on-surface);
+}
+
+.list-item .leading-icon{
+  font-size: 1.8rem;
+  color: var(--on-surface-variant);
+}
 
 /**
  * Navigation

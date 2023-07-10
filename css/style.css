@@ -472,9 +472,30 @@ button:disabled{
 }
 
 
-/**
- * Segment button
- */
+/* btn segment */
+.btn-segment{
+  color: var(--on-surface);
+  --state-layer-bg: var(--on-surface);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  padding-inline: 12px;
+  height: 40px;
+  flex-grow: 1;
+}
+
+.btn-group .btn-segment:not(:last-child){
+  border-inline-end: 1px solid var(--outline);
+}
+
+.btn-group{
+  display: flex;
+  border: 1px solid var(--outline);
+  border-radius: var(--radius-full);
+  overflow: hidden;
+}
+
 
 
 /**
@@ -546,9 +567,13 @@ button:disabled{
 
 .search-bar .search-btn{
   --state-layer-bg: var(--primary);
+  color: var(--primary);
 }
 
-/* https://youtu.be/3B_o90v6WqA?t=3387 */
+.search-view-content .btn-group{
+  margin: 16px;
+}
+
 
 
 /**

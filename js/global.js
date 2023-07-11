@@ -13,6 +13,6 @@ window.addEventListener("scroll", () => {
 
 
 // добовляем эффект для ripple
-const $rippleElems = document.querySelector("[data-ripple]");
+const $rippleElems = document.querySelectorAll("[data-ripple]");
 
 $rippleElems.forEach($rippleElem => ripple($rippleElem));

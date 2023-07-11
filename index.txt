@@ -1,9 +1,4 @@
 
-Pixstock - A large stock library
-
-This is a stock photos app made by codewithsadee
-
-
 
 #---------- HEADER ----------#
 
@@ -177,13 +172,13 @@ Pixstock is a stock photo app developed by codewithsadee and all Photos and Vide
 
 Follow us on
 
-href = https://youtube.com/@codewithsadee
+href = 
 YouTube
 
-href = https://github.com/codewithsadee
+href = 
 GitHub
 
-href = https://twitter.com/codewithsadee
+href = 
 Twitter
 
 
